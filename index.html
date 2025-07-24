@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Shopzaar</title>
+  </head>
+
+  <body>
+    <!--------Hero Section-------->
+    <section id="Home">
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="assets/logo.png" width="300" alt="logo" />
+          </div>
+
+          <nav>
+            <input type="checkbox" id="sidebar-active" />
+            <label for="sidebar-active" class="open-sidebar-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="32"
+                viewBox="0 -960 960 960"
+                width="32"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                />
+              </svg>
+            </label>
+            <label id="overlay" for="sidebar-active"></label>
+            <div class="links-container">
+              <label for="sidebar-active" class="close-sidebar-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="32"
+                  viewBox="0 -960 960 960"
+                  width="32"
+                >
+                  <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                  />
+                </svg>
+              </label>
+              <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#featured">Products</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="Account.html">Account</a></li>
+                <li><a href="#About">About</a></li>
+              </ul>
+            </div>
+          </nav>
+          <img src="assets/cart.png" class="cart" alt="cart" width="30px" />
+        </div>
+
+        <div class="row">
+          <div class="col-2">
+            <h1>Discover Deals. <br />Explore Trends. <br />Shopzaar It!</h1>
+            <p>
+              Welcome to Shopzaar, where shopping gets exciting! 🎉<br />
+              From trendsetting fashion to must-have tech, we’ve got it all.<br />
+              Hot deals, smooth checkout, fast delivery and vibes? Always.<br />
+              🛒 Start scrolling and see why Shopzaar is your new happy place!
+            </p>
+            <a href="#" class="btn">Start Shopping &#8594;</a>
+          </div>
+
+          <div class="col-2">
+            <img src="assets/picture-1.png" alt="CoverIMG" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!--------Categories-------->
+    <section id="Categories">
+    <div class="categories">
+      <h2 class="section-title">Categories</h2>
+      <div class="row">
+        <div class="col-3">
+          <div class="category-card">
+            <img src="assets/CAT-1.jpg" alt="Shoes" />
+            <div class="category-info">
+              <h3>Shoes</h3>
+              <button>Explore More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="category-card">
+            <img src="assets/CAT-2.jpg" alt="Makeup" />
+            <div class="category-info">
+              <h3>Makeup</h3>
+              <button>Explore More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="category-card">
+            <img src="assets/CAT-3.jpg" alt="Clothing" />
+            <div class="category-info">
+              <h3>Clothing</h3>
+              <button>Explore More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="category-card">
+            <img src="assets/CAT-4.jpg" alt="Electronics" />
+            <div class="category-info">
+              <h3>Electronics</h3>
+              <button>Explore More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!--------Featured Products-------->
+    <section id="featured">
+    <div class="featured-container">
+      <h2 class="section-title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="assets/Product-1.jpg" alt="Linen Shirt" />
+          <h4>Men's Casual Linen Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>$64.00</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-7.jpg" alt="Colorful Sneakers" />
+          <h4>Men's Colorblock Sneakers</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$129.99</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-9.jpg" alt="AirPods" />
+          <h4>Apple AirPods (3rd Gen)</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>$179.00</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-12.jpg" alt="Xbox Controller" />
+          <h4>Xbox Wireless Controller</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$59.99</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+      </section>
+      <!-- ---------------Latest Products 1---------------- -->
+      <h2 class="section-title">Latest Products</h2>
+
+      <div class="row">
+        <div class="col-4">
+          <img src="assets/Product-2.jpg" alt="Linen Shirt" />
+          <h4>Men's Casual Linen Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>$22.00</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-3.jpg" alt="Denim Jeans" />
+          <h4>Men's Colorblock Jeans</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$63.00</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-5.jpg" alt="Polo T-Shirts" />
+          <h4>Men's Polo T-Shirts (3 Pack)</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>$51.00</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-8.jpg" alt="White Sneakers" />
+          <h4>Nike Air Jordan 3 Fragment</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$199.99</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- ---------------Latest Products 2---------------- -->
+
+      <div class="row">
+        <div class="col-4">
+          <img src="assets/Product-4.jpg" alt="Black Denim Jeans" />
+          <h4>Men's Black Denim Jeans</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>$42.00</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-6.jpg" alt="Black Running Sneakers" />
+          <h4>Nike Black Running Sneakers</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$84.99</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-10.jpg" alt="PS5 Controller" />
+          <h4>PS5 DualSense Wireless Controller</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>$69.99</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/AirPods-2ndgen.jpg" alt="Apple AirPods" />
+          <h4>Apple AirPods (2nd Gen)</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$129.99</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- ---------------Latest Products 3---------------- -->
+      <div class="row">
+        <div class="col-4">
+          <img src="assets/Product-11.jpg" alt="Controller" />
+          <h4>PS4 DualShock 4 controller</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>$59.99</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-1.jpg" alt="Linen Shirt" />
+          <h4>Men's Casual Linen Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>$64.00</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-7.jpg" alt="AirPods" />
+          <h4>Men's Colorblock Sneakers</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$129.99</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+
+        <div class="col-4">
+          <img src="assets/Product-12.jpg" alt="Xbox Controller" />
+          <h4>Xbox Wireless Controller</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$59.99</p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------Exclusive Offer------------ -->
+
+    <section class="exclusive-banner">
+      <div class="exclusive-content">
+        <div class="exclusive-text">
+          <h2>Exclusive Offer</h2>
+          <h3>Noise-Cancelling Wireless Headphones</h3>
+          <p class="exclusive-description">
+            Experience immersive sound and peace with our limited edition
+            noise-cancelling headphones. Designed for comfort, clarity, and
+            style.
+          </p>
+          <p class="exclusive-price">
+            <span class="new-price">$149.00</span>
+            <span class="old-price">$199.00</span>
+          </p>
+          <button class="buy-now-btn">Buy Now</button>
+        </div>
+        <div class="exclusive-image">
+          <img src="assets/Headphone.webp" alt="Noise Cancelling Headphones" />
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------Testimonials--------------------------- -->
+
+    <div class="testimonial">
+      <div class="featured-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              Super fast delivery and exactly what I ordered. Love the vibe! 💖
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <img src="assets/User-1.jpg" alt="User-1" />
+            <h4>Smriti Adhikari</h4>
+          </div>
+
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              Shopzaar made shopping way easier. Stylish products and great
+              support!
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <img src="assets/User-2.jpg" alt="User-2" />
+            <h4>Sujan Shrestha</h4>
+          </div>
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              Totally obsessed with the quality and deals here. 🔥 Recommended!1
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <img src="assets/User-3.jpg" alt="User-3" />
+            <h4>Ramesh Thapa</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------Pre Footer----------------------- -->
+
+    <div class="pre-footer">
+      <div class="newsletter-section">
+        <h3>Subscribe to Our Newsletter</h3>
+        <p>Get updates on new arrivals and exclusive deals!</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      
+      <section id="Service">
+      <div class="payment-methods">
+        <h4>We Accept</h4>
+        <div class="payment-icons">
+          <img src="assets/esewa.png" alt="eSewa" />
+          <img src="assets/imepay.png" alt="IME Pay" />
+          <img src="assets/visa.png" alt="Visa" />
+          <img src="assets/mastercard.png" alt="Mastercard" />
+          <img src="assets/cod.png" alt="Cash on Delivery" />
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- ----------------------------------Footer-------------------------- -->
+    <section id="About">
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>About Shopzaar</h4>
+          <p>
+            Shopzaar is your one-stop destination for stylish deals, quality
+            products, and lightning-fast delivery. We bring excitement to your
+            shopping experience.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Categories">Categories</a></li>
+            <li><a href="#">Today's Deals</a></li>
+            <li><a href="#">Customer Support</a></li>
+            <li><a href="#">Sell on Shopzaar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <p><i class="fa-solid fa-envelope"></i> support@shopzaar.com</p>
+          <p><i class="fa-solid fa-phone"></i> +977-9864274706</p>
+          <p><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Shopzaar. All rights reserved.</p>
+      </div>
+    </footer>
+    </section>
+    
+  </body>
+</html>
